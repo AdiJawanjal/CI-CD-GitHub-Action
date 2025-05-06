@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ci-cd-demo
-        image: your-dockerhub-username/ci-cd-demo:latest
+        image: adijawanjal/ci-cd-demo:latest
         ports:
         - containerPort: 3000
 ---
